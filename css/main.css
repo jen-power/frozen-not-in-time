@@ -4,17 +4,21 @@ html {
 }
 
 .banner {
-  background-image: repeating-linear-gradient(-45deg, #b3fbff, #b3fbff 10px, #d4fdff 10px, #d4fdff 20px);
-  border-top: 5px solid #b3fbff;
-  border-bottom: 5px solid #b3fbff;
+  background-image: repeating-linear-gradient(-40deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+  border-top: 8px solid #b3fbff;
+  border-bottom: 8px solid #b3fbff;
 }
 
 h1 {
   color: #990073;
+  transform: rotate(-10deg);
+  transform-origin: left bottom;
 }
 
 p {
   max-width: 19em;
+  transform: rotate(-5deg);
+  transform-origin: left bottom;
 }
 
 .btn-ghost {
