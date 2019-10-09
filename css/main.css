@@ -25,3 +25,19 @@ p {
   color: #c09;
   border-color: #990073;
 }
+
+.icecream {
+  min-height: 480px;
+}
+
+.scale {
+  transform: scale(.97);
+}
+
+.cone {
+  bottom: 10%;
+}
+
+.mint-chip {
+  bottom: 10%;
+}
