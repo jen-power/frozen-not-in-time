@@ -1,0 +1,13 @@
+html {
+  color: #c09;
+  font-family: "Fredoka One", sans-serif;
+}
+
+h1 {
+  color: #990073;
+}
+
+.btn-ghost {
+  color: #c09;
+  border-color: #990073;
+}
