@@ -3,8 +3,18 @@ html {
   font-family: "Fredoka One", sans-serif;
 }
 
+.banner {
+  background-image: repeating-linear-gradient(-45deg, #b3fbff, #b3fbff 10px, #d4fdff 10px, #d4fdff 20px);
+  border-top: 5px solid #b3fbff;
+  border-bottom: 5px solid #b3fbff;
+}
+
 h1 {
   color: #990073;
+}
+
+p {
+  max-width: 19em;
 }
 
 .btn-ghost {
