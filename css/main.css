@@ -13,6 +13,7 @@ h1 {
   color: #990073;
   transform: rotate(-10deg);
   transform-origin: left bottom;
+  filter: drop-shadow(1px 1px 1px #990073);
 }
 
 p {
@@ -24,6 +25,11 @@ p {
 .btn-ghost {
   color: #c09;
   border-color: #990073;
+}
+
+.btn-ghost:hover {
+  background-color: #c09;
+  opacity: .2;
 }
 
 .icecream {
