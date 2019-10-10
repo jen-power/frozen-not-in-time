@@ -13,7 +13,7 @@ h1 {
   color: #990073;
   transform: rotate(-10deg);
   transform-origin: left bottom;
-  text-shadow: (1px 1px 1px #990073);
+  text-shadow: 1px 1px #990073;
 }
 
 p {
@@ -43,31 +43,31 @@ p {
 
 .cone {
   z-index: 10;
-  animation: drop-1 .5s linear forwards;
+  animation: drop-1 .3s linear forwards;
 }
 
 .mint-chip {
   left: -3%;
   z-index: 1;
-  animation: drop-2 .5s .5s linear forwards;
+  animation: drop-2 .3s .3s linear forwards;
 }
 
 .chocolate-chip {
   left: 2%;
   z-index: 2;
-  animation: drop-3 .5s 1s linear forwards;
+  animation: drop-3 .3s .6s linear forwards;
 }
 
 .vanilla-fudge {
   left: -3%;
   z-index: 3;
-  animation: drop-4 .5s 1.5s linear forwards;
+  animation: drop-4 .2s .9s linear forwards;
 }
 
 .cherry {
   left: 19%;
   z-index: 4;
-  animation: drop-5 .5s 2s linear forwards;
+  animation: drop-5 .15s 1.5s linear forwards;
 }
 
 @keyframes drop-1 {
