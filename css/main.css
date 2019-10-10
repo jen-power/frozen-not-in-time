@@ -131,7 +131,7 @@ p {
 }
 
 .text {
-  animation: blur .3s .3s linear forwards;
+  animation: blur 1s linear forwards;
 }
 
 @keyframes blur {
