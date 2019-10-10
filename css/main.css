@@ -71,6 +71,7 @@ p {
 }
 
 @keyframes drop-1 {
+
   0% {
     bottom: 100%;
   }
@@ -78,9 +79,11 @@ p {
   100% {
     bottom: -30px;
   }
+
 }
 
 @keyframes drop-2 {
+
   0% {
     bottom: 100%;
   }
@@ -88,9 +91,11 @@ p {
   100% {
     bottom: 105px;
   }
+
 }
 
 @keyframes drop-3 {
+
   0% {
     bottom: 100%;
   }
@@ -98,9 +103,11 @@ p {
   100% {
     bottom: 185px;
   }
+
 }
 
 @keyframes drop-4 {
+
   0% {
     bottom: 100%;
   }
@@ -108,14 +115,31 @@ p {
   100% {
     bottom: 250px;
   }
+
 }
 
 @keyframes drop-5 {
+
   0% {
     bottom: 100%;
   }
 
   100% {
     bottom: 370px;
+  }
+
+}
+
+.text {
+  animation: blur .3s .3s linear forwards;
+}
+
+@keyframes blur {
+
+  0% {
+    filter: blur(7px);
+  }
+  100% {
+    filter: blur(0px);
   }
 }
