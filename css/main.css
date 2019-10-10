@@ -31,13 +31,34 @@ p {
 }
 
 .scale {
-  transform: scale(.97);
+  transform: scale(.7);
 }
 
 .cone {
-  bottom: 10%;
+  bottom: -5%;
+  z-index: 10;
 }
 
 .mint-chip {
-  bottom: 10%;
+  bottom: 22%;
+  left: -3%;
+  z-index: 1;
+}
+
+.chocolate-chip {
+  bottom: 40%;
+  left: 2%;
+  z-index: 2;
+}
+
+.vanilla-fudge {
+  bottom: 55%;
+  left: -3%;
+  z-index: 3;
+}
+
+.cherry {
+  bottom: 80%;
+  left: 18%;
+  z-index: 4;
 }
