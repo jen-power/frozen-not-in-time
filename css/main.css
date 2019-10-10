@@ -32,37 +32,33 @@ p {
 
 .scale {
   transform: scale(.7);
+  bottom: 100%;
 }
 
 .cone {
-  bottom: -5%;
   z-index: 10;
   animation: drop-1 .5s linear forwards;
 }
 
 .mint-chip {
-  bottom: 22%;
   left: -3%;
   z-index: 1;
   animation: drop-2 .5s .5s linear forwards;
 }
 
 .chocolate-chip {
-  bottom: 40%;
   left: 2%;
   z-index: 2;
   animation: drop-3 .5s 1s linear forwards;
 }
 
 .vanilla-fudge {
-  bottom: 55%;
   left: -3%;
   z-index: 3;
   animation: drop-4 .5s 1.5s linear forwards;
 }
 
 .cherry {
-  bottom: 80%;
   left: 19%;
   z-index: 4;
   animation: drop-5 .5s 2s linear forwards;
@@ -74,7 +70,7 @@ p {
   }
 
   100% {
-    bottom: -10;
+    bottom: -30px;
   }
 }
 
@@ -84,7 +80,7 @@ p {
   }
 
   100% {
-    bottom: 10;
+    bottom: 105px;
   }
 }
 
@@ -94,7 +90,7 @@ p {
   }
 
   100% {
-    bottom: 30;
+    bottom: 185px;
   }
 }
 
@@ -104,7 +100,7 @@ p {
   }
 
   100% {
-    bottom: 50;
+    bottom: 250px;
   }
 }
 
@@ -114,6 +110,6 @@ p {
   }
 
   100% {
-    bottom: 70;
+    bottom: 370px;
   }
 }
