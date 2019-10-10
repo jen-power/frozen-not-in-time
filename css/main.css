@@ -13,7 +13,7 @@ h1 {
   color: #990073;
   transform: rotate(-10deg);
   transform-origin: left bottom;
-  filter: drop-shadow(1px 1px 1px #990073);
+  text-shadow: (1px 1px 1px #990073);
 }
 
 p {
