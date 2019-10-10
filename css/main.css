@@ -139,7 +139,9 @@ p {
   0% {
     filter: blur(7px);
   }
+
   100% {
-    filter: blur(0px);
+    filter: blur(0);
   }
+
 }
